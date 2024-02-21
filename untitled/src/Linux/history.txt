@@ -1,0 +1,58 @@
+ 1180  cat > "Домашние животные"
+
+ 1181  nano "Домашние животные"
+
+ 1182  cat > "Вьючные животные"
+
+ 1183  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+
+ 1184  more "Друзья человека"
+
+ 1185  mkdir final_work
+
+ 1186  mv "Друзья человека" final_work/
+
+ 1187  ll
+
+ 1188  cd final_work
+
+ 1189  ll
+
+ 1190  apt update
+
+ 1191  apt install mysql
+
+ 1192  cat /etc/apt/sources.list
+
+ 1193  apt-add-repository --help
+
+ 1194  nano /etc/apt/sources.list
+
+ 1195  clear
+
+ 1196  apt install mysql-server-8.0 -y
+
+ 1197  dpkg -l
+
+ 1198  dpkg mysql-server_8.2.0-1ubuntu22.04_amd64.deb
+
+ 1199  dpkg -i mysql-server_8.2.0-1ubuntu22.04_amd64.deb
+
+ 1200  cd ..
+
+ 1201  clear
+
+ 1202  wget https://download3.operacdn.com/pub/opera/desktop/60.0.3255.27/linux/opera-stable_60.0.3255.27_amd64.deb
+
+ 1203  dpkg -i opera-stable_60.0.3255.27_amd64.deb’
+
+ 1204  sudo dpkg -i opera-stable_60.0.3255.27_amd64.deb’
+
+ 1205  dpkg -i opera-stable_60.0.3255.27_amd64.deb
+
+ 1206  apt install ibgdk-pixbuf2.0-0
+
+ 1207  dpkg -r opera-stable
+
+ 1208  history
+
